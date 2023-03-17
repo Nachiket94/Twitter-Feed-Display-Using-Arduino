@@ -15,10 +15,7 @@ import sched
 s = sched.scheduler(time.time, time.sleep)
 
 
-consumer_key = 'Flv9uubVy6Ex1f7QxwsOeIS1N'
-consumer_secret = 'yj7pCXn1DY5AMpcC2kQ8R4U2ZVcaWUAcplaqhyHtKB90WEqiEQ'
-access_token = '1263383185313988609-JuH8ZyfB6y0vJOT9ykwCesLE2LAPxl'
-access_token_secret = 'Ib5AoiZ3kPdHoGMZe354RvQjjhvshL22sEgySFWgvMosB'
+
 
 auth = tweepy.OAuth1UserHandler(
   consumer_key, 
